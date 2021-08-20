@@ -18,5 +18,7 @@ $ docker push mckafeh/hello-world-app:latest
 # Runing the App on Minikube
 
 kubectl create deployment hello-world-app --image=mckafeh/hello-world-app 
+
 kubectl scale deployments hello-world-app --replicas=2
+
 kubectl expose deployment hello-world-app --type=LoadBalancer --port=8080
