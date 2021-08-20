@@ -2,7 +2,7 @@
 
 # Building the Docker image 
 
-$ docker build --tag hello-world-app:latest  .
+$ docker build -t mckafeh/hello-world-app:latest  .
 
 
 # Test running the the Docker container locally
