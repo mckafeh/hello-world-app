@@ -7,7 +7,7 @@ $ docker build --tag hello-world-app:latest.
 
 # Test running the the Docker container locally
 
-$ docker run --name hello-world-app -d -p 8000:8000 hello-world-app:latest
+$ docker run --name hello-world-app -d -p 8080:8080 hello-world-app:latest
 
 # Publishing the Docker image to Docker Hub
 
