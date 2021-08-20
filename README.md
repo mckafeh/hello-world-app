@@ -12,7 +12,9 @@ $ docker run --name hello-world-app -d -p 8080:8080 hello-world-app:latest
 # Publishing the Docker image to Docker Hub
 
 $ docker login -u mckafeh
+
 $ docker tag hello-world-app:latest mckafeh/hello-world-app:latest 
+
 $ docker push mckafeh/hello-world-app:latest
 
 # Runing the App on Minikube
