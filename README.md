@@ -5,7 +5,7 @@
 $ docker build -t mckafeh/hello-world-app:latest  .
 
 
-# Test running the the Docker container locally
+# Test running the Docker container locally
 
 $ docker run --name hello-world-app -d -p 8080:8080 hello-world-app:latest
 
